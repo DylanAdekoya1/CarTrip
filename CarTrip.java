@@ -65,7 +65,7 @@ public class CarTrip {
 	public String toString(){
 		return ("Start Odometer: " + this.startO + "\nEnd Odometer: " + this.endO 
 				+ "\nTime Made: " + this.time + " hours\nGallons Used: " + this.gallonsUsed
-				+ "Distance Traveled: " +  this.getTripDistance() + " miles." + "\nSpeed: " + this.getAverageSpeed()
+				+ "\nDistance Traveled: " +  this.getTripDistance() + " miles." + "\nSpeed: " + this.getAverageSpeed()
 				+ "\nGallons of gas cost $20 so the gas mileage is: " + this.getGasMileage()
 				+ "Total Gas Price: " + this.getTGP());
 	}
